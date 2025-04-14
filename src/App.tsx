@@ -5,6 +5,8 @@ import TokenMint from './components/TokenMint'
 import SolTransfer from './components/SolTransfer'
 import BalanceDisplay from './components/BalanceDisplay'
 import TransactionHistory from './components/TransactionHistory'
+import { Buffer } from "buffer";
+window.Buffer = Buffer;
 
 function App() {
 

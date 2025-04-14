@@ -18,8 +18,6 @@ import {
     createTransferInstruction,
 } from "@solana/spl-token";
 
-// Special setup to add a Buffer class
-window.Buffer = window.Buffer || require("buffer").Buffer;
 
 
 function TokenMint() {
